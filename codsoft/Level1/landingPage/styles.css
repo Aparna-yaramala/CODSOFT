@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.top-bar {
+    background: linear-gradient(to right, #f953c6, #b91d73);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links li {
+    cursor: pointer;
+}
+
+.btn-buy {
+    background-color: orange;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 20px 0;
+}
+
+.btn-hero {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #f953c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    padding: 30px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.feature-box {
+    flex: 1;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.service-box {
+    margin: 10px;
+    padding: 20px;
+    background: #eee;
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+}
